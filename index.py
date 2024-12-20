@@ -6,7 +6,7 @@ def find_missing_number(arr, n):
     # missing number is the difference
     return expected_sum - actual_sum
 
-# Example Usage
+
 n = 10  
 arr = [1, 2, 3, 4, 5, 6, 8, 9, 10]  
 missing_number = find_missing_number(arr, n)
